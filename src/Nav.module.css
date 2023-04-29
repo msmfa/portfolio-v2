@@ -1,0 +1,15 @@
+.container {
+  position: absolute;
+  top: 10px;
+  right: 25px;
+}
+
+.container ul {
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+}
+
+.container ul li {
+  list-style-type: none;
+}
