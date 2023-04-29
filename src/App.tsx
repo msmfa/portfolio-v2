@@ -18,15 +18,16 @@ function App() {
 
       <p>
         Want to follow my journey in launching Sober App? I publish a bi-monthly
-        newsletter about my success and failings, here's the first post{" "}
+        newsletter about my success and failings.{" "}
         <a href="https://faileveryday.substack.com/p/documenting-every-failure-in-my-business">
           Documenting every failure in my business in the first 14 days
         </a>
       </p>
 
       <p>
-        In my spare time I like to play chess and box, not at the same time (yes
-        that is a thing)
+        In my spare time I like{" "}
+        <a href="https://www.instagram.com/michaelsydneymoore">painting</a> and
+        boxing (not at the same time).
       </p>
     </>
   );
