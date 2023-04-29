@@ -14,7 +14,8 @@ export default function AboutText() {
         <a href="https://www.sober-app.co.uk/" target="blank">
           Sober App.
         </a>
-        <br />A dating App for sober people. (React Native + Express + Mongo)
+        <br />
+        (React Native + Express + Mongo)
       </p>
       <p>
         Want to follow my journey in launching Sober App? I publish a bi-monthly

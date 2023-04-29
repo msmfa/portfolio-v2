@@ -8,6 +8,7 @@ export default function Nav() {
   function handlePdfClick() {
     window.open("path/to/pdf/document.pdf", "_blank");
   }
+
   return (
     <nav className={styles.container}>
       <ul>
@@ -16,6 +17,9 @@ export default function Nav() {
         </li>
         <li>
           <a onClick={handlePdfClick}>CV</a>
+        </li>
+        <li>
+          <a href="https://github.com/msmfa">Github</a>
         </li>
       </ul>
     </nav>
