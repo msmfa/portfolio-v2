@@ -1,5 +1,4 @@
 import AboutText from "./AboutText";
-import "./App.css";
 import Nav from "./Nav";
 
 function App() {
