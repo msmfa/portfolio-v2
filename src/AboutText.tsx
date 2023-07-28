@@ -1,6 +1,6 @@
 export default function AboutText() {
   return (
-    <section>
+    <article>
       <p>
         I'm Michael. A Software Engineer from London.
         <br />
@@ -24,6 +24,6 @@ export default function AboutText() {
         </a>{" "}
         and boxing (not at the same time).
       </p>
-    </section>
+    </article>
   );
 }
