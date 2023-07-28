@@ -1,3 +1,5 @@
 .link {
-  color: rgb(45, 121, 214);
+  color: black;
+  font-weight: bold;
+  text-decoration: underline;
 }

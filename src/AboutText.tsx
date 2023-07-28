@@ -5,8 +5,12 @@ export default function AboutText() {
   return (
     <article>
       <p>
-        I'm Michael. A Software Engineer from London.
-        <Spacer size={2} />
+        <p>Hi there,</p>
+        <Spacer size={0.25} />
+        <p style={{ fontSize: 40 }}>I'm Michael.</p>
+        <Spacer size={0.5} />
+        <p style={{ fontSize: 20 }}>A Software Engineer from London.</p>
+        <Spacer size={4} />
         Currently a Lead Frontend developer at{" "}
         <Link label="Browser" url="https://www.browserlondon.com/" />
         <Spacer />
