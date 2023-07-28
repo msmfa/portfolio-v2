@@ -19,7 +19,9 @@ export default function Nav() {
           <a onClick={handlePdfClick}>CV</a>
         </li>
         <li>
-          <a href="https://github.com/msmfa">Github</a>
+          <a href="https://github.com/msmfa" target="_blank" rel="noopener">
+            Github
+          </a>
         </li>
       </ul>
     </nav>

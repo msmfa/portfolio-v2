@@ -1,6 +1,5 @@
 .container {
   position: absolute;
-  background-color: orange;
   width: 100%;
   z-index: 1;
 }
@@ -10,9 +9,10 @@
   flex-direction: row;
   justify-content: flex-end;
   gap: 15px;
-  margin: 10px 20px 10px 0;
+  margin: 25px;
 }
 
 .container ul li {
   list-style-type: none;
+  cursor: pointer;
 }

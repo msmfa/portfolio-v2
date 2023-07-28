@@ -1,3 +1,4 @@
+import Link from "./Link";
 import Spacer from "./Spacer";
 
 export default function AboutText() {
@@ -7,14 +8,12 @@ export default function AboutText() {
         I'm Michael. A Software Engineer from London.
         <Spacer size={2} />
         Currently a Lead Frontend developer at{" "}
-        <a href="https://www.browserlondon.com/" target="blank">
-          Browser
-        </a>
+        <Link label="Browser" url="https://www.browserlondon.com/" />
         <Spacer />
         <p>
-          Most of my commercial experience is in building the front ends of web
-          and mobile applications in Typescript, React and React Native but I
-          work across the whole stack when I need to.
+          Most of my 4+ years commercial experience is in building the front
+          ends of web and mobile applications. My main tools are Typescript,
+          React and React Native.
         </p>
         <Spacer />
         <p>
@@ -25,19 +24,13 @@ export default function AboutText() {
       <Spacer size={2} />
       <p>
         If I'm not at work I'm probably working on{" "}
-        <a href="https://www.sober-app.co.uk/" target="blank">
-          Sober App
-        </a>{" "}
-        (React Native + Express + Mongo)
-      </p>
-      <Spacer />
-
-      <p>
-        In my spare time I like{" "}
-        <a href="https://www.instagram.com/michaelsydneymoore" target="blank">
-          painting
-        </a>{" "}
-        and boxing (not at the same time).
+        <Link label="Sober App" url="https://www.sober-app.co.uk/" /> (React
+        Native + Express + Mongo),{" "}
+        <Link
+          label="Painting"
+          url="https://www.instagram.com/michaelsydneymoore/"
+        />{" "}
+        or Boxing (not at the same time).
       </p>
     </article>
   );

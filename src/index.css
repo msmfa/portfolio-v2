@@ -3,7 +3,6 @@ body {
   height: 100%;
   margin: 0;
   padding: 0;
-  background-color: #535bf2;
 }
 
 :root {
@@ -182,4 +181,9 @@ q:after {
 table {
   border-collapse: collapse;
   border-spacing: 0;
+}
+a {
+  list-style: none;
+  text-decoration: none;
+  color: inherit;
 }
