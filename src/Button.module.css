@@ -1,0 +1,23 @@
+.button {
+  border-radius: 40px;
+  padding: 1.25em 2.5em;
+  cursor: pointer;
+  transition: border-color 0.25s;
+  padding-bottom: 1.5rem;
+  padding-top: 1.5rem;
+}
+
+.button:hover {
+  border-color: #646cff;
+}
+.button:focus,
+.button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+@media (prefers-color-scheme: light) {
+  button {
+    background-color: white;
+    border: 1px solid #d3d3d3;
+  }
+}

@@ -1,12 +1,13 @@
 import styles from "./Nav.module.css";
+import Config from "./constants";
 
 export default function Nav() {
   function handleEmailClick() {
-    window.location.href = "mailto:codemoore@outlook.com";
+    window.location.href = Config.email;
   }
 
   function handlePdfClick() {
-    window.open("path/to/pdf/document.pdf", "_blank");
+    window.open(Config.pdf, "_blank");
   }
 
   return (
@@ -19,7 +20,7 @@ export default function Nav() {
           <a onClick={handleEmailClick}>Contact</a>
         </li>
         <li>
-          <a href="https://github.com/msmfa" target="_blank" rel="noopener">
+          <a href={Config.github} target="_blank" rel="noopener">
             Github
           </a>
         </li>
