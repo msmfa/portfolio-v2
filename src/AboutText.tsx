@@ -9,15 +9,16 @@ export default function AboutText() {
         <Spacer size={0.25} />
         <p style={{ fontSize: 40 }}>I'm Michael.</p>
         <Spacer size={0.5} />
-        <p style={{ fontSize: 20 }}>A Software Engineer from London.</p>
-        <Spacer size={4} />
+        <p style={{ fontSize: 40 }}>A Software Engineer from London.</p>
+        <Spacer size={3} />
         Currently a Lead Frontend developer at{" "}
         <Link label="Browser" url="https://www.browserlondon.com/" />
         <Spacer />
         <p>
           Most of my 4+ years commercial experience is in building the front
-          ends of web and mobile applications. My main tools are Typescript,
-          React and React Native.
+          ends of web and mobile applications. But I also enjoy working across
+          the whole stack. My main tools are Typescript, React and React Native
+          and Next.
         </p>
         <Spacer />
         <p>
@@ -25,7 +26,8 @@ export default function AboutText() {
           latest front end flavour is!
         </p>
       </p>
-      <Spacer size={2} />
+      <Spacer />
+
       <p>
         If I'm not at work I'm probably working on{" "}
         <Link label="Sober App" url="https://www.sober-app.co.uk/" /> (React

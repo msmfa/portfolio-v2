@@ -13,10 +13,10 @@ export default function Nav() {
     <nav className={styles.container}>
       <ul>
         <li>
-          <a onClick={handleEmailClick}>Contact</a>
+          <a onClick={handlePdfClick}>CV</a>
         </li>
         <li>
-          <a onClick={handlePdfClick}>CV</a>
+          <a onClick={handleEmailClick}>Contact</a>
         </li>
         <li>
           <a href="https://github.com/msmfa" target="_blank" rel="noopener">
