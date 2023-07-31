@@ -3,7 +3,8 @@
 }
 
 html,
-body {
+body,
+#root {
   height: 100%;
   margin: 0;
   padding: 0;
@@ -164,6 +165,6 @@ a {
     background-color: #ffffff;
   }
   a:hover {
-    color: #747bff;
+    color: green;
   }
 }

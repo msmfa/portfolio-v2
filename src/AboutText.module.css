@@ -1,16 +1,26 @@
 .container {
-  padding: 0 600px 0 100px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
 }
 
-@media only screen and (max-width: 1200px) {
+@media (min-width: 768px) {
   .container {
-    position: absolute;
-    padding: 0px 60px 0 60px;
+    padding: 40px;
   }
 }
 
-@media only screen and (max-width: 1400px) {
+@media (min-width: 1024px) {
   .container {
-    padding: 0 400px 0 100px;
+    width: 80%;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container {
+    padding: 0 200px;
+    height: 100%;
   }
 }
