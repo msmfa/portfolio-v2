@@ -28,7 +28,8 @@ export default function AboutText() {
       <Spacer />
       <Text>
         Outside of work, I build and launch my own products end to end, from market validation and product design through to development and go-to-market. These include{" "}
-        <Link label="interview preparation tools for engineers" url="https://www.practice-pad.app/" />, a dating app for people who do not drink, and{" "}
+        <Link label="Practice Pad" url="https://www.practice-pad.app/" /> and{" "}
+        <Link label="JavaScript in 30 Words" url="https://www.javascriptin30words.com/" /> for interview preparation, a dating app for people who do not drink, and{" "}
         <Link label="Plastic Brains" url="https://www.plastic-brains.com/" />, my latest project, which uses neuroplasticity and learning-based research to support better therapy outcomes.      </Text>
     </article>
   );
