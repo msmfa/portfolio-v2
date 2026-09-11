@@ -18,7 +18,7 @@ export default function AboutText() {
       </Text>
       <Spacer />
       <Text>
-        I have 6+ years of commercial experience building web and mobile applications with TypeScript, React and React Native.
+        I have 7+ years of commercial experience building web and mobile applications with TypeScript, React and React Native.
       </Text>
       <Spacer />
       <Text>

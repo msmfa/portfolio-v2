@@ -24,6 +24,11 @@ export default function Nav() {
             Github
           </a>
         </li>
+        <li>
+          <a href={Config.linkedin} target="_blank" rel="noopener">
+            LinkedIn
+          </a>
+        </li>
       </ul>
     </nav>
   );
