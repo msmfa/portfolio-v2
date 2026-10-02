@@ -30,7 +30,14 @@ export default function AboutText() {
         Outside of work, I build and launch my own products end to end, from market validation and product design through to development and go-to-market. These include{" "}
         <Link label="Practice Pad" url="https://www.practice-pad.app/" /> and{" "}
         <Link label="JavaScript in 30 Words" url="https://www.javascriptin30words.com/" /> for interview preparation, a dating app for people who do not drink, and{" "}
-        <Link label="Plastic Brains" url="https://www.plastic-brains.com/" />, my latest project, which uses neuroplasticity and learning-based research to support better therapy outcomes.      </Text>
+        <Link label="Quiet Pomodoro" url="https://quietpomodoro.com/" />,
+        a free online Pomodoro timer for focused work and study.
+      </Text>
+      <Spacer />
+      <Text>
+        I also built <Link label="Plastic Brains" url="https://www.plastic-brains.com/" />,
+        which uses neuroplasticity and learning-based research to support better therapy outcomes.
+      </Text>
     </article>
   );
 }
